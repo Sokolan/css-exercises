@@ -42,11 +42,15 @@
 }
 
 .sidebar {
+<<<<<<< HEAD
   grid-row: 2 / span 2;
   display: grid;
   gap: 50px;
   grid-template-rows: repeat(4, 1ft);
   background-color: #FF7755;
+=======
+  background-color: #C50208;
+>>>>>>> a9f93b10dfdb1f9392fe8955ddc37f245a30a344
 }
 
 .sidebar .photo {
@@ -70,6 +74,7 @@
 }
 
 .nav {
+<<<<<<< HEAD
   background-color: #FF7755;
   display: grid;
 }
@@ -79,6 +84,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
+=======
+  background-color: #C50208;
+>>>>>>> a9f93b10dfdb1f9392fe8955ddc37f245a30a344
 }
 
 .nav ul li {
@@ -127,6 +135,7 @@
 
 .footer p {
   font-size: 13px;
+<<<<<<< HEAD
   font-weight: normal;  
   align-self: center;
 }
@@ -140,4 +149,7 @@
 
 ul {
   list-style: none;
+=======
+  font-weight: normal;
+>>>>>>> a9f93b10dfdb1f9392fe8955ddc37f245a30a344
 }
